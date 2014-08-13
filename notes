@@ -1,0 +1,32 @@
+look for ^switch:
+
+run:
+
+flash_init 
+load_helper
+boot
+
+Would you like to enter the initial configuration dialog? [yes/no]:
+
+-> no
+
+Press RETURN to get started!
+
+-> enter
+
+Switch>
+
+-> enable
+
+Switch#
+
+-> write mem
+Switch#
+-> show ver
+
+IOS (tm) C2950 Software (C2950-I6K2L2Q4-M), Version 12.1(22)EA8a, RELEASE
+System image file is "flash:/c2950-i6k2l2q4-mz.121-22.EA8a.bin"
+Model number:
+System serial number:
+Base ethernet MAC Address:
+
