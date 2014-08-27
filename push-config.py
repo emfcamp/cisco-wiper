@@ -101,6 +101,9 @@ cs = (
 ("\[OK\]", ""),
 )
 
+# XXX TODO : for the 2950's they need this instead
+# crypto key generate rsa modulus 2048
+
 for c in cs:
   if type(c) == type("str"):
     s.expect('switch:')
