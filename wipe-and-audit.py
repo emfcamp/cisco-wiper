@@ -27,6 +27,8 @@ cs = (
 ("(y/n)?", 'y'),
 'delete flash:config.text',
 ("(y/n)?", 'y'),
+'delete flash:vlan.dat',
+("(y/n)?", 'y'),
 'boot',
 # ugg, escapeing [ and ] here since pexpect uses the strings as regular
 # expressions? wat?
